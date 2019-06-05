@@ -46,6 +46,26 @@ body {
   text-align: center;
 }
 
+.navbar{
+  background-color: #000033 !important;
+}
+
+.navbar .navbar-brand{
+color: #FFFFFF;
+}
+
+.navbar .navbar-brand: hover{
+color: #FFFFFF;
+}
+
+.navbar .navbar-nav li a{
+ color: #FFFFFF !important;
+}
+
+.navbar-toggler {
+  background-color: #FFFFFF;
+}
+
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
