@@ -89,3 +89,53 @@
     </span>
   </div>
   </nav>
+
+
+
+
+  <form action="/action_page.php">
+    <div class="container">
+        <p>Subscribe to our newsletter</p>
+    </div>
+
+    <div class="container">
+      <input type="text" placeholder="Name" name="name" required>
+      <input type="text" placeholder="Email address" name="mail" required>
+
+    </div>
+
+    <div class="container">
+      <input type="submit" value="Subscribe">
+    </div>
+  </form>
+
+  form {
+    font-family: Arial;
+  }
+
+  .container {
+    padding: 20px;
+    background-color: #000033;
+  }
+
+  input[type=text], input[type=submit] {
+    width: 50%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+
+  input[type=submit] {
+    background-color: #000033;
+    color: white;
+    border: white;
+  }
+
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }

@@ -66,6 +66,36 @@ color: #FFFFFF;
   background-color: #FFFFFF;
 }
 
+/*
+ form style
+ */
+
+ #mc_embed_signup { border: none; text-align: center; width: 100%; } /* Signup form container */
+
+ .mc-field-group { display: inline-block; } /* positions input field horizontally */
+
+ #mce-EMAIL { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; border: 2px solid #FFFFFF; color: #FFFFFF; background-color: #000033; padding: .7em 9em .7em 1em; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; display: inline-block; margin: 0; } /* Input Styles */
+
+ .clear { display: inline-block; } /* positions button horizontally in line with input */
+
+ .button { font-family: 'Helvetica Neue', Helvetica,  Arial, sans-serif; font-size: 1em; letter-spacing: .03em; color: #FFFFFF; background-color: #000033; padding: .7em 2em; border: 2px solid #FFFFFF; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; display: inline-block; margin: 0; } /* Button Styles */
+
+ :-webkit-input-placeholder { color:  ; } /* WebKit browsers */
+ :-moz-placeholder { color:  ; } /* Mozilla Firefox 4 to 18 */
+ ::-moz-placeholder { color:  ; } /* Mozilla Firefox 19+ */
+ :-ms-input-placeholder { color:  ; } /* Internet Explorer 10+ */
+
+ @media (max-width: 768px) { /* positions input field and button underneath each other with 100% width for tablet and mobile */
+
+ .mc-field-group { display: block; max-width: 100%; }
+ #mce-EMAIL { padding: .7em 0 .7em 1em; width: 96%; margin: 0; }
+ .clear { display: block; width: 100% }
+ .button { width: 100%; margin: .5em 0 0 0; }
+ }
+
+
+
+
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
